@@ -1,5 +1,48 @@
+#wrapper{
+    position: relative;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #234bd2;
+}
+
+a:hover {
+    color: #5071de;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #water{
     position: absolute;
     top: 300px;
     left: 0px;
+}
+
+#lily-pad{
+    position: absolute;
+    top: 275px;
+    left: 300px;
+    width: 200px;
+}
+
+#african-clawed-frog{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    width: 100px;
+}
+
+#african-clawed-frog-2{
+    display: block;
+    width: 50%;
 }
