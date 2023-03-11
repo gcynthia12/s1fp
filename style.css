@@ -8,7 +8,7 @@ p{
 
 a {
     font-family: Helvetica, sans-serif;
-    font-weight: 300;
+    font-weight: 00;
     text-decoration: none;
     color: #234bd2;
 }
@@ -17,9 +17,33 @@ a:hover {
     color: #5071de;
 }
 
+table, th, td {
+    font-family: Helvetica, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 2px 5px 2px 5px;
+}
+
+th{
+    font-weight: 600;
+}
+
+td{
+    font-weight: 300;
+}
+
+
 .center {
     margin-left: auto;
     margin-right: auto;
+}
+
+.small-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
 }
 
 #water{
@@ -40,9 +64,4 @@ a:hover {
     top: 400px;
     left: 100px;
     width: 100px;
-}
-
-#african-clawed-frog-2{
-    display: block;
-    width: 50%;
 }
